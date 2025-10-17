@@ -1,0 +1,23 @@
+func Contains(s, substr string) bool
+func HasPrefix(s, prefix string) bool
+func HasSuffix(s, suffix string) bool
+func EqualFold(s, t string) bool
+func Index(s, substr string) int
+func LastIndex(s, substr string) int
+func Split(s, sep string) []string
+func Fields(s string) []string
+func Join(elems []string, sep string) string
+func TrimSpace(s string) string
+func Trim(s, cutset string) string
+func TrimPrefix(s, prefix string) string
+func TrimSuffix(s, suffix string) string
+func ReplaceAll(s, old, new string) string
+func Replace(s, old, new string, n int) string
+func Count(s, substr string) int
+func ToLower(s string) string
+func ToUpper(s string) string
+func ToValidUTF8(s, replacement string) string
+func Cut(s, sep string) (before, after string, found bool)
+func CutPrefix(s, prefix string) (after string, found bool)
+func CutSuffix(s, suffix string) (before string, found bool)
+func Map(mapping func(rune) rune, s string) string
